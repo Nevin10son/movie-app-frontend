@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 const SearchMovies = () => {
     const [film,setdata] =useState(
@@ -36,6 +37,7 @@ const SearchMovies = () => {
     }
   return (
     <div>
+        <NavBar/>
         <h1>Search movie</h1>
       <div className="container">
         <div className="row">
